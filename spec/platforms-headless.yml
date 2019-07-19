@@ -1,0 +1,24 @@
+chrome70_headless:
+  platform: Linux
+  browser_name: chrome
+  version: 'latest'
+chrome71_headless:
+  platform: Linux
+  browser_name: chrome
+  version: 'latest -1'
+chrome72_headless:
+  platform: Linux
+  browser_name: chrome
+  version: 'latest -2'
+fflatest_headless:
+  platform: Linux
+  browser_name: firefox
+  version: 'latest'
+fflatestminusone_headless:
+  platform: Linux
+  browser_name: firefox
+  version: 'latest -1'
+fflatestminustwo_headless:
+  platform: Linux
+  browser_name: firefox
+  version: 'latest- 2'
