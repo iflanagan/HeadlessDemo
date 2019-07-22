@@ -1,8 +1,6 @@
 require 'rspec/core/rake_task'
 require 'yaml'
-require 'selenium-webdriver'
-require 'webdrivers'
-require 'webdrivers/chromedriver'
+
 
 def platforms
   platforms_file = "platforms-#{ENV['PLATFORM_FILE']}"
