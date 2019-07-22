@@ -1,5 +1,6 @@
 require 'rspec/core/rake_task'
 require 'yaml'
+require 'webdrivers'
 
 def platforms
   platforms_file = "platforms-#{ENV['PLATFORM_FILE']}"
