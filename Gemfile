@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-require 'webdrivers'
+gem 'webdrivers', '~> 4.0'
 gem 'rspec'
 gem 'watir'
 gem 'sauce_whisk'
