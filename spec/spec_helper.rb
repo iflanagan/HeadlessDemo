@@ -40,6 +40,7 @@ RSpec.configure do |config|
   end
 
   config.after(:each) do |example|
+     SauceWhisk::Jobs.change_status(@driver.session_id, !example.exception)
     @browser.quit
   end
 end
